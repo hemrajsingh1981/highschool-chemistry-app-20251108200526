@@ -3,13 +3,14 @@ import Link from 'next/link';
 export default function OrganicChemistryPage() {
   return (
     <main className="container mx-auto p-4">
-      <h1 className="text-4xl font-bold mb-6">Introduction to Organic Chemistry</h1>
+      <h1 className="text-4xl font-bold mb-6">Introduction to Basic Organic Chemistry</h1>
       <section className="mb-8">
+        <h2 className="text-3xl font-semibold mb-4">Introduction to Basic Organic Chemistry</h2>
         <p className="text-lg mb-4">
           Organic chemistry is the study of carbon-containing compounds. Carbon's unique ability to form stable bonds with itself and other elements allows for an incredible diversity of molecules, forming the basis of life and countless materials.
         </p>
         <p className="text-lg">
-          This section will explore fundamental concepts, including hydrocarbons, functional groups, and basic reaction mechanisms.
+          This section will explore fundamental concepts, including hydrocarbons and functional groups, and basic reaction mechanisms.
         </p>
       </section>
 
